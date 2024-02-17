@@ -19,12 +19,8 @@ allprojects {
         mavenLocal()
         google()
         mavenCentral()
-        flatDir {
-            dirs 'libs'
-        }
+
     }
 }
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
+
